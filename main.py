@@ -20,10 +20,10 @@ def CheckString(string):
 
 if __name__ == "__main__":
 
-    print('\033[93m' + "Para salir del programa, ingrese 'exit' o 'salir' en la cadena a evaluar" + '\033[0m')
+    print('\033[93m' + "To exit the program, write 'exit'" + '\033[0m')
 
     while True:
-        string = input("Ingrese la cadena a evaluar: ")
+        string = input("Enter a string: ")
         if string == "exit" or string == "salir":
             break
         CheckString(string)
